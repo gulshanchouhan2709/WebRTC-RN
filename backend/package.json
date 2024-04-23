@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "watch:server": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webrtc",
+    "nodejs",
+    "expressjs",
+    "socket.io"
+  ],
+  "author": "gulshanchouhan2709",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mkcert": "^3.2.0",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}

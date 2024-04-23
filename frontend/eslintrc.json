@@ -1,0 +1,57 @@
+{
+    "extends": [
+        "prettier",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
+    ],
+    "plugins": [
+        "prettier",
+        "import",
+        "react"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "func-names": "off",
+        "no-process-exit": "off",
+        "object-shorthand": "off",
+        "class-methods-use-this": "off",
+        "import/extensions": [
+            "warn",
+            {
+                "js": "never",
+                "jsx": "never"
+            }
+        ],
+        "react/jsx-props-no-spreading": "off",
+        "react/prop-types": 0,
+        "no-new": "off",
+        "no-underscore-dangle": "off",
+        "no-param-reassign": [
+            "error",
+            {
+                "props": false
+            }
+        ]
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "jquery": true,
+        "jest": true
+    }
+}
